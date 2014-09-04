@@ -18,6 +18,8 @@ PRODUCT_PACKAGES += \
     su \
     SwagPapers \
     Torch \
+    Apollo \
+    CMFileManager \
     UnicornBeam \
     KitKatWhite
 
