@@ -44,6 +44,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1
 
+# enable multithreaded dexopt by default
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.dalvik.multithread=true
+
 # Installer
 PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/common/bin/persist.sh:install/bin/persist.sh \
