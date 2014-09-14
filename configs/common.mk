@@ -48,6 +48,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.dalvik.multithread=true
 
+# default disable call recording support
+PRODUCT_PROPERTY_OVERRIDES += \
+   persist.call_recording.enabled=false
+
+
 # Installer
 PRODUCT_COPY_FILES += \
     vendor/aokp/prebuilt/common/bin/persist.sh:install/bin/persist.sh \
