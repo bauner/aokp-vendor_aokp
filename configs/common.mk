@@ -46,7 +46,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # enable multithreaded dexopt by default
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.sys.dalvik.multithread=true
+    persist.sys.dalvik.multithread=false
 
 # Installer
 PRODUCT_COPY_FILES += \
