@@ -20,6 +20,7 @@ PRODUCT_PACKAGES += \
     Torch \
     Apollo \
     CMFileManager \
+    LockClock \
     UnicornBeam \
     KitKatWhite
 
